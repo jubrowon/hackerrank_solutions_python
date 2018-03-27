@@ -26,7 +26,7 @@ def solve(n, a):
             if abs(min(a[x:y])-max(a[x:y])) <=1:
                 count.append(len(a[x:y]))
                 count2.append(a[x:y])
-    return max(count), count2
+    return max(count)
 
 if __name__ == "__main__":
     n = 6
